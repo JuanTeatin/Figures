@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+#botones{
+    width: 100%;
+    min-height: 100ph;
+    height: 100vh;
+    text-align: center;
+    padding: 100px 0px;
+    background: url("../img/steve-smith-2S-XTkpXrdM-unsplash.jpg");
+    background-size: cover;
+}
+#botones button{
+    padding: 14px 30px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    margin: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: .5s;
+}
+#botones h1{
+    color: #fff;
+    font-size: 40px;
+    padding: 15px 30px;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#botones button:hover{
+    background: #fff;
+    color: #000;
+    padding: 14px ;
+}
+
+
+
+
+/* estilos ejercicio figura */
+#contPrincipal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    background-color: #000;
+
+
+
+}
+#contPrincipal #botones{
+    width: 40%;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid gold;
+    color: white;
+}
+
+
+
+#contPrincipal #contFigura{
+    width: 40%;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid gold;
+    color: white;
+}
+
+
+
+#figura{
+    width: 200px;
+    height: 200px ;
+    background: white;
+    margin: 48px;
+    transition: .5s;
+}
+
+
+#figura.circulo{
+    border-radius: 50%;
+    transition: .5s;
+}
+
+
+#figura.rectangulo{
+    width: 275px;
+    transition: .5s;
+}
+
+
+#figura.rombo{
+    transform: rotate(45deg);
+    transition: .4s;
+}
+
+
+#figura.gif{
+    background: url("../img/tumblr_ld50zo6ft31qcppw3o1_500.gif");
+    background-size: cover;
+}
+
+
+#figura.izquierda{
+    transform: translateX(-200px);
+    background-size: cover;
+}
+
+#figura.derecha{
+    transform: translateX(200px);
+    background-size: cover;
+}
+
+#figura.arriba{
+    transition: .5s;
+    transform: translateY(-200px);
+    background-size: cover;
+}
+
+#figura.abajo{
+    transform: translateY(200px);
+    transition: .5s;
+}
+
+#figura.diagonal{
+    transform: translate(200px,200px);
+    transition: .5s;
+}
